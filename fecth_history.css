@@ -1,0 +1,30 @@
+table{
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: 35%;
+    width: 80%;
+    height: 100px;
+    border-spacing:0 ;
+    background-color:whitesmoke;
+    text-align: center;
+    border: 2px solid gainsboro;
+}
+tr,td,th{
+    border-collapse: collapse;
+}
+th,td{
+    padding: 15px 25px;
+}
+th{
+    background: gainsboro;
+}
+td button{
+    display: inline-block;
+    padding: 10px; 
+    border-radius: 8px;
+    margin: 0px 5px;
+}
+tr:nth-child(even){
+    background-color:white; 
+}
